@@ -53,4 +53,9 @@ dkms.conf
 
 # debug information files
 *.dwo
-main
+
+**/.idea/
+**/cmake-build-debug/
+**main
+**/main.dSYM
+**/.obsidian
