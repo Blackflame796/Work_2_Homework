@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <math.h>
+#include <locale.h>
 
 int main() {
+    setlocale(LC_ALL, "RUS");
     double H = 1000;
     double Vc = 200;
     double S = 5000;
